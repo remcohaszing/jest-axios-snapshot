@@ -1,0 +1,9 @@
+root: true
+extends:
+  - remcohaszing
+  - remcohaszing/jest
+env:
+  jest: true
+rules:
+  import/no-extraneous-dependencies: off
+  node/no-unpublished-import: off

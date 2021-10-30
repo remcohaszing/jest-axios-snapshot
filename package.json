@@ -1,0 +1,43 @@
+{
+  "name": "jest-axios-snapshot",
+  "version": "1.0.0",
+  "description": "Test axios HTTP responses using Jest snapshots",
+  "main": "jest-axios-snapshot.js",
+  "author": "Remco Haszing <remcohaszing@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remcohaszing/jest-axios-snapshot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/remcohaszing/jest-axios-snapshot/issues"
+  },
+  "homepage": "https://github.com/remcohaszing/jest-axios-snapshot#readme",
+  "files": [],
+  "engines": {
+    "node": ">=12"
+  },
+  "keywords": [
+    "axios",
+    "jest",
+    "jest-snapshot",
+    "snapshot"
+  ],
+  "scripts": {
+    "prepack": "tsc --noEmit false"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "axios": "^0.24.0",
+    "eslint": "^7.0.0",
+    "eslint-config-remcohaszing": "^3.0.0",
+    "eslint-plugin-jest": "^25.0.0",
+    "eslint-plugin-jest-formatting": "^3.0.0",
+    "jest": "^27.0.0",
+    "prettier": "^2.0.0",
+    "pretty-format": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "typescript": "^4.0.0"
+  }
+}
