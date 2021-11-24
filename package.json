@@ -13,7 +13,10 @@
     "url": "https://github.com/remcohaszing/jest-axios-snapshot/issues"
   },
   "homepage": "https://github.com/remcohaszing/jest-axios-snapshot#readme",
-  "files": [],
+  "files": [
+    "jest-axios-snapshot.js",
+    "jest-axios-snapshot.d.ts"
+  ],
   "engines": {
     "node": ">=12"
   },

@@ -75,6 +75,7 @@ function serializeResponse(response: AxiosResponse, toString: Stringify): string
 }
 
 /**
+ * @internal
  * @param actual - The actual value passed to expect.
  * @returns Whether or not the actual input is an axios response.
  */
@@ -115,6 +116,7 @@ let transformResponse = defaultTransformer;
 /**
  * Serialize an axios response as a string.
  *
+ * @internal
  * @param response - The axios response to serialize.
  * @param config - THe jest snapshot configuration.
  * @param indentation - The intentation to use for serializing entities.

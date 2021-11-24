@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["esnext"],
     "module": "commonjs",
     "noEmit": true,
     "noImplicitAny": true,
     "strict": true,
+    "stripInternal": true,
     "target": "es2018"
   }
 }
