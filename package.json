@@ -1,6 +1,6 @@
 {
   "name": "jest-axios-snapshot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test axios HTTP responses using Jest snapshots",
   "main": "jest-axios-snapshot.js",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
