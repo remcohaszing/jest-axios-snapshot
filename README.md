@@ -78,3 +78,8 @@ setResponseTransformer((response) => {
   };
 });
 ```
+
+## See also
+
+- [axios-test-instance](https://github.com/remcohaszing/axios-test-instance) enables you to test a
+  Node.js server using axios.
