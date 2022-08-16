@@ -83,3 +83,7 @@ setResponseTransformer((response) => {
 
 - [axios-test-instance](https://github.com/remcohaszing/axios-test-instance) enables you to test a
   Node.js server using axios.
+
+## License
+
+[MIT](LICENSE.md) © [Remco Haszing](https://github.com/remcohaszing)
