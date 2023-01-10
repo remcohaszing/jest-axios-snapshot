@@ -1,13 +1,8 @@
 module.exports = {
   preset: 'ts-jest',
-  globals: {
-    'ts-jest': {
-      isolatedModules: true,
-    },
-  },
   collectCoverage: true,
-  snapshotFormat: {
-    printBasicPrototype: false,
+  moduleNameMapper: {
+    [/(.+)\.js$/.source]: ['$1.js', '$1.ts'],
   },
   snapshotSerializers: ['<rootDir>/jest-axios-snapshot.ts'],
 };

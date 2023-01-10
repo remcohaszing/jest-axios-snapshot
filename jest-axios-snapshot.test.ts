@@ -1,4 +1,4 @@
-import { defaultTransformer, setResponseTransformer } from './jest-axios-snapshot';
+import { defaultTransformer, setResponseTransformer } from './jest-axios-snapshot.js';
 
 afterEach(() => {
   setResponseTransformer(defaultTransformer);

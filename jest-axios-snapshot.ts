@@ -1,4 +1,4 @@
-import { STATUS_CODES } from 'http';
+import { STATUS_CODES } from 'node:http';
 
 import { AxiosResponse } from 'axios';
 import { Config, Printer, Refs } from 'pretty-format';
